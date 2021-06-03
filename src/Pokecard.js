@@ -8,7 +8,7 @@ function Pokecard(props) {
             <h3>{props.name}</h3>
             <img src={imgURL} />
             <h4>{props.type}</h4>
-            <h4>{props.exp}</h4>
+            <h4>{props.base_experience}</h4>
         </div>
     )
 }
